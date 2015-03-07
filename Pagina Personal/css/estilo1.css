@@ -1,0 +1,61 @@
+body
+{
+	
+	background-image: url('imagenes/fondo2.png'),url('imagenes/fondo1.jpg');
+	background-position: left left, center center;	
+	background-repeat: no-repeat, no-repeat;
+	color: black;
+	
+}
+	header
+	{
+		
+
+		background: black;
+		border: 2px solid red;
+		border-radius: 30px 0px;
+		box-shadow: inset 0px 0px 30px red, 10px 10px 20px white; 
+		color: white;
+		margin: 35px auto;
+		padding: 10px;
+		text-align: center;
+		text-shadow: 2px 3px 5px orange;
+		width: 300px;
+
+	}
+
+	.menu
+	{
+	
+		margin: 200px auto;
+		text-align:  center;
+		width: 500px;
+		
+	}
+	.menu li{
+		display: inline-block;
+		list-style: none;
+		background: rgb(201, 38, 81);
+		border: 1px solid black;
+		border-radius: 5px;
+		box-shadow: inset 0px 0px 5px black;
+		color: white;
+		color: #f4f4f4; /*Internet Explorer*/
+		font: bold 18px "Myriad Pro", "Lucida Grande", Helvetica, Arial, sans-serif;
+		cursor: pointer;
+		padding: 5px 15px;
+	
+
+		background-image: -webkit-linear-gradient(
+	 	top,
+		rgba(255,255,255,.9) 0%,
+		rgba(0,0,0,.5) 100%
+	    );
+
+	}
+
+	.menu li:hover
+	{
+		background: rgb(245, 229, 14);
+		/*color: black;*/
+	}*/
